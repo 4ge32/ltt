@@ -1,0 +1,18 @@
+pi@raspberrypi:~/workspaces$ ./mp+dmb.sys.exe 
+Test mp+dmb.sys Allowed
+Histogram (3 states)
+481540:>1:X0=0; 1:X2=0;
+21748 :>1:X0=0; 1:X2=1;
+496712:>1:X0=1; 1:X2=1;
+No
+
+Witnesses
+Positive: 0, Negative: 1000000
+Condition exists (1:X0=1 /\ 1:X2=0) is NOT validated
+Hash=592564b7f5bb278c1fc33861dd44472b
+Generator=diyone7 (version 7.56)
+Com=Rf Fr
+Orig=DMB.SYdWW Rfe DMB.SYdRR Fre
+Observation mp+dmb.sys Never 0 1000000
+Time mp+dmb.sys 0.31
+

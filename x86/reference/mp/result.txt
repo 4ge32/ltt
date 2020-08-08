@@ -1,0 +1,18 @@
+$ ./mp.exe  -s 5000000 -r 10
+Test mp Allowed
+Histogram (3 states)
+24996397:>1:EAX=0; 1:EBX=0;
+4139  :>1:EAX=0; 1:EBX=1;
+24999464:>1:EAX=1; 1:EBX=1;
+No
+
+Witnesses
+Positive: 0, Negative: 50000000
+Condition exists (1:EAX=1 /\ 1:EBX=0) is NOT validated
+Hash=a1a510af057d5eeaad263d02f51d92ee
+Generator=diyone7 (version 7.56)
+Com=Rf Fr
+Orig=PodWW Rfe PodRR Fre
+Observation mp Never 0 50000000
+Time mp 4.68
+
